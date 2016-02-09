@@ -1,0 +1,1050 @@
+@charset "utf-8";
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF url(../i/bkgdpic.jpg) no-repeat center top fixed;
+	text-align: center;
+	color: #555555;
+	margin: 0;
+	padding: 0;
+}
+#container {
+	background: #FFFFFF;
+	width: 771px;
+	margin: 10px auto 0px auto;
+	border: 0;
+	text-align: left;
+	position: relative;
+} 
+p {
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0px 15px 0px 20px;
+	padding: 0px 0px 20px 0px;
+}
+h1, h2, h3, h4 { font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; line-height: 1.4em; margin: 0px 15px 10px 20px; padding: 0px;}
+h1 {font-size: 20px; color: #00802a; letter-spacing: 1px;}
+h2 {font-size: 16px; color: #222222;}
+h3 {font-size: 14px; color: #666666; font-weight: normal;}
+h4 {font-size: 14px; color: #BA4F1B;}
+img {
+	border: none;
+}
+
+
+a.maintext1 {
+	color: #4723B1;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.maintext1:hover {
+	color: #B16323;
+	text-decoration: underline;
+}
+.maintextmini{
+	font-size: 11px;
+	color: #999999;
+}
+
+	
+
+
+/*   HEADER   */
+
+#header {
+	background: #FFFFFF;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	height: 200px;
+	width: 771px;
+} 
+#header h1 {
+	margin: 0;
+	padding: 0;
+}
+#header h1.flybefree {
+	position: absolute;
+	left: -4500px;
+	top: 0px;
+}
+#header #mainLogo {
+	background: url(../i/headLogo-HPS-Palm-Beach.jpg) no-repeat 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 157px;
+	width: 255px;
+	float: left;
+	position: relative;
+}
+#header #mainLogo:hover {
+	background: url(../i/headLogo-HPS-Palm-Beach.jpg) no-repeat 0px -157px;
+}
+#header #mainLogo img {
+	height: 157px;
+	width: 255px;
+	border: 0px;
+}
+#header #headPic1  {
+	background: url(../i/Putting_Green_1.jpg) no-repeat left top;
+	margin: 0px 0px 0px 255px; padding: 0px; height: 157px;
+	/*	width: 516px;  This was dropped to fix potential float drop problem */
+}
+#header #headPic2  {
+	background: url(../i/Putting_Green_2.jpg) no-repeat left top;
+	margin: 0px 0px 0px 255px; padding: 0px; height: 157px;
+}
+#header #headPic3  {
+	background: url(../i/Putting_Green_3.jpg) no-repeat left top;
+	margin: 0px 0px 0px 255px; padding: 0px; height: 157px;
+}
+#header #headPic4  {
+	background: url(../i/Putting_Green_4.jpg) no-repeat left top;
+	margin: 0px 0px 0px 255px; padding: 0px; height: 157px;
+}
+#header #headPic5  {
+	background: url(../i/Putting_Green_Turf_5.jpg) no-repeat left top;
+	margin: 0px 0px 0px 255px; padding: 0px; height: 157px;
+}
+#header #headPic6  {
+	background: url(../i/Putting_Green_Turf_6.jpg) no-repeat left top;
+	margin: 0px 0px 0px 255px; padding: 0px; height: 157px;
+}
+#header #headPic7  {
+	background: url(../i/Putting_Green_Business_7.jpg) no-repeat left top;
+	margin: 0px 0px 0px 255px; padding: 0px; height: 157px;
+}
+#header #headPic8  {
+	background: url(../i/Putting_Green_8.jpg) no-repeat left top;
+	margin: 0px 0px 0px 255px; padding: 0px; height: 157px;
+}
+#header #headPic9  {
+	background: url(../i/Putting_Green_9.jpg) no-repeat left top;
+	margin: 0px 0px 0px 255px; padding: 0px; height: 157px;
+}
+#header #headPic10  {
+	background: url(../i/Synthetic_Lawn_1.jpg) no-repeat left top;
+	margin: 0px 0px 0px 255px; padding: 0px; height: 157px;
+}
+
+/*   NAV BAR   */
+
+
+#header #navbar {
+	background: url(../i/navbar.jpg) no-repeat left top;
+	height: 43px;
+	width: 771px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+#header #navbar ul {
+	margin: 0px;
+	padding: 0px;
+}
+#header #navbar li {
+	list-style-type: none;
+	display: inline;
+}
+#header #navbar img {
+	background: url(../i/spritenav.gif) no-repeat;
+	height: 43px;
+	float: right;
+	margin: 0px 20px 0px 0px;
+}
+#header #navbar a {
+	background: url(../i/spritenav.gif) no-repeat;
+	float: right;
+	height: 23px;
+	margin: 0px 20px 0px 0px;
+}
+#navbar img#contact {background-position: 0px -86px; width: 70px;}
+#navbar a#contact {background-position: 0px 0px; width: 70px;}
+#navbar a#contact:hover {background-position: 0px -43px;}
+#navbar img#dealership {background-position: -624px -86px; width: 57px;}
+#navbar a#dealership {background-position: -624px 0px; width: 57px;}
+#navbar a#dealership:hover {background-position: -624px -43px;}
+#navbar img#faq {background-position: -464px -86px; width: 37px;}
+#navbar a#faq {background-position: -464px 0px; width: 37px;}
+#navbar a#faq:hover {background-position: -464px -43px;}
+#navbar img#gallery {background-position: -389px -86px; width: 69px;}
+#navbar a#gallery {background-position: -389px 0px; width: 69px;}
+#navbar a#gallery:hover {background-position: -389px -43px; }
+#navbar img#greens {background-position: -559px -86px; width: 60px;}
+#navbar a#greens {background-position: -559px 0px; width: 60px;}
+#navbar a#greens:hover {background-position: -559px -43px;}
+#navbar img#home {background-position: -507px -86px; width: 46px;}
+#navbar a#home {background-position: -507px 0px; width: 46px;}
+#navbar a#home:hover {background-position: -507px -43px;}
+#navbar img#lawn {background-position: -293px -86px; width: 46px;}
+#navbar a#lawn {background-position: -293px 0px; width: 46px;}
+#navbar a#lawn:hover {background-position: -293px -43px;}
+#navbar img#turf {background-position: -725px -86px; width: 39px;}
+#navbar a#turf {background-position: -725px 0px; width: 39px;}
+#navbar a#turf:hover {background-position: -725px -43px;}
+#navbar img#why {background-position: -75px -86px; width: 47px;}
+#navbar a#why {background-position: -75px 0px; width: 47px;}
+#navbar a#why:hover {background-position: -75px -43px;}
+
+/*
+#navbar img#aboutus {background-position: -209px -86px; width: 78px;}
+#navbar a#aboutus {background-position: -209px 0px; width: 78px;}
+#navbar a#aboutus:hover {background-position: -209px -43px;}
+#navbar img#edwin_watts {background-position: -942px -86px; width: 108px;}
+#navbar a#edwin_watts {background-position: -942px 0px; width: 108px;}
+#navbar a#edwin_watts:hover {background-position: -942px -43px;}
+#navbar img#golf {background-position: -345px -86px; width: 39px;}
+#navbar a#golf {background-position: -345px 0px; width: 39px;}
+#navbar a#golf:hover {background-position: -345px -43px;}
+#navbar img#indoor {background-position: -1162px -86px; width: 61px;}
+#navbar a#indoor {background-position: -1162px 0px; width: 61px;}
+#navbar a#indoor:hover {background-position: -1162px -43px;}
+#navbar img#install {background-position: -1310px -86px; width: 62px;}
+#navbar a#install {background-position: -1310px 0px; width: 62px;}
+#navbar a#install:hover {background-position: -1310px -43px;}
+#navbar img#ouredge {background-position: -127px -86px; width: 77px;}
+#navbar a#ouredge {background-position: -127px 0px; width: 77px;}
+#navbar a#ouredge:hover {background-position: -127px -43px;}
+#navbar img#outdoor {background-position: -1229px -86px; width: 75px;}
+#navbar a#outdoor {background-position: -1229px 0px; width: 75px;}
+#navbar a#outdoor:hover {background-position: -1229px -43px;}
+#navbar img#pics {background-position: -686px -86px; width: 33px;}
+#navbar a#pics {background-position: -686px 0px; width: 33px;}
+#navbar a#pics:hover {background-position: -686px -43px;}
+#navbar img#products {background-position: -1378px -86px; width: 81px;}
+#navbar a#products {background-position: -1378px 0px; width: 81px;}
+#navbar a#products:hover {background-position: -1378px -43px;}
+#navbar img#sell {background-position: -1464px -86px; width: 34px;}
+#navbar a#sell {background-position: -1464px 0px; width: 34px;}
+#navbar a#sell:hover {background-position: -1464px -43px;}
+#navbar img#specials {background-position: -770px -86px; width: 71px;}
+#navbar a#specials {background-position: -770px 0px; width: 71px;}
+#navbar a#specials:hover {background-position: -770px -43px;}
+#navbar img#tourlinks {background-position: -847px -86px; width: 89px;}
+#navbar a#tourlinks {background-position: -847px 0px; width: 89px;}
+#navbar a#tourlinks:hover {background-position: -847px -43px;}
+#navbar img#tryit {background-position: -1055px -86px; width: 47px;}
+#navbar a#tryit {background-position: -1055px 0px; width: 47px;}
+#navbar a#tryit:hover {background-position: -1055px -43px;}
+#navbar img#video {background-position: -1107px -86px; width: 49px;}
+#navbar a#video {background-position: -1107px 0px; width: 49px;}
+#navbar a#video:hover {background-position: -1107px -43px;} 
+*/
+
+
+
+
+
+/*   LEFT SIDEBAR   */
+
+
+
+
+
+#sidebar {
+	float: left; /* since this element is floated, a width must be given */
+	width: 255px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	background: #FFFFFF; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 0px;
+	overflow: hidden;
+	margin: 0px;
+	position: relative;
+}
+#sidebar #sbinner {
+	background-color: #FFFFFF;
+	margin: 0px 0px 5px 3px;
+	width: auto;
+}
+#sidebar #sbinnerturf {background: #FFFFFF url(../i/sideturf.jpg) repeat-y left top; text-align: center; width: auto; height: 1700px; padding: 0px; margin: 0px 0px 0px 3px;}
+#sidebar #sbinnerturft {background: url(../i/sideturf-t.jpg) no-repeat left top; width: auto; padding: 0px; margin: 0px; height: 85px;}
+#sidebar #sbinnerturfb {background: url(../i/sideturf-b.jpg) no-repeat left top; width: auto; padding: 0px; margin: 0px 0px 5px 3px; height: 19px;}
+#sidebar #sbinner #featureddealertop {
+	background: #0E8A4C url(../i/featured-top.gif) no-repeat;
+	width: 252px;
+	height: 15px;
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px;
+}
+#sidebar #sbinner #featureddealertop p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+	font-weight: bold;
+	color: #02371C;
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 0px auto;
+	padding: 2px 0px 0px 0px;
+}
+#sidebar  #sbinner  #featureddealertop  strong   {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 12px;
+	padding-top: 4px;
+}
+
+#sidebar #sbinner #featureddealerbottom {
+	background: url(../i/featured-bottom.gif) no-repeat;
+	padding: 0px;
+	height: 15px;
+	width: 252px;
+	margin: 0px auto;
+}
+#sidebar #sbinner #featureddealer {
+	background: url(../i/featured-dealer.gif) repeat-y;
+	padding: 10px 0px 0px 0px;
+	margin: 0px auto;
+	width: 252px;
+}
+#sidebar #sbinner #featureddealer h2 {
+	background-color: #0E8A4C;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #93CFF0;
+	text-align: center;
+	margin: 16px 10px 0px 10px;
+	padding: 0px;
+	border-color: #056433;
+	border-style: solid;
+	border-width: 1px 16px;
+}
+#sidebar #sbinner #featureddealer h2.topmost {
+	margin-top: 0px;
+}
+
+#sidebar #sbinner #featureddealer p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 14px 0px 0px 10px;
+	text-align: left;
+}
+#sidebar #sbinner #featureddealer a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #E1E12D;
+	text-decoration: none;
+	padding: 0px 0px 0px 30px;
+	margin: 0px;
+	line-height: 16px;
+}
+#sidebar #sbinner #featureddealer a:hover {
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+.flybefree {
+	position: absolute;
+	left: -4500px;
+	height: 0px;
+}
+.sidetext1 {
+	color: #d87e50;
+	font-size: 12px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	line-height: 15px;
+	text-align: center;
+	width: 252px
+}
+
+
+
+#boxdouble {
+	background: #ffffff url(../i/boxdouble.jpg) no-repeat 0 bottom; overflow:hidden;}
+.boxview {
+	width: 192px;
+	height: 150px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	text-align: center;
+	overflow: hidden;
+	margin: 0px auto 20px auto;
+	padding: 3px 0px 0px 0px;
+}
+.boxview a.boxviewhead {
+	color: #4723B1;
+	text-decoration: none;
+}
+.boxview a.boxviewhead:hover {
+	color: #FFFFFF;
+}
+.boxview .boxviewtext {
+	color: #000000;
+	font-size: 12px;
+	line-height: 15px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	width: 176px;
+	margin: 4px auto;
+}
+.morestory {
+	background-image: url(../i/more.gif);
+	background-repeat: no-repeat;
+	height: 14px;
+	width: 34px;
+	border: 0px;
+	right: -3px;
+	position: relative;
+	bottom: -4px;
+	margin: 0px;
+	padding: 0px;
+}
+.morestory:hover {
+	background-image: url(../i/moreover.gif);
+}
+#peisturf   {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: url(../i/Putters_Edge_Is_Turf.jpg) no-repeat left top;
+	margin: 20px 0px 20px 0px;
+	padding: 0px;
+	height: 375px;
+	width: auto;
+}
+#peisturf h2 {
+	font-size: 18px;
+	line-height: 18px;
+	text-align: right;
+	padding: 4px 20px 0px 0px;
+	margin: 0px;
+}
+#peisturf h3 {
+	padding: 12px 20px 0px 0px;
+	margin: 0px;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: bold;
+	text-align: right;
+}
+#peisturf a {
+	color: #DDDDDD;
+	text-decoration: none;
+}
+
+#peisturf a:hover {
+	color: #FFFFFF;
+}
+#newsitems  {
+	background-color: #00522D;
+	margin: 0px;
+	padding: 0px;
+	line-height: 0px;
+}
+#newsitems  h2  {
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #009753;
+	padding: 2px 0px 4px 0px;
+	margin: 6px 0px 0px 0px;
+	border-bottom: 3px solid #FFFFFF;
+}
+#newsitems  p  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: left;
+	margin: 0px;
+	padding: 10px 0px 0px 12px;
+}
+#newsitems  .horzrule  {
+	background-color: #FFFFFF;
+	height: 3px;
+	width: 252px;
+	margin: 6px auto 0px auto;
+}
+
+a.newsitems    {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: none;
+	color: #FFFF33;
+	text-align: right;
+	padding: 8px 14px 4px 0px;
+	display: block;
+}
+a.newsitems:hover    {
+	color: #FFFFFF;
+}
+.newsstretch {
+	background-color: #00522D;
+	margin: 20px 0px 0px 0px;
+	border-bottom: 10px solid #FFFFFF;
+}
+.tinyside {
+	font-family: Tahoma, Arial, Helvetica;
+	color: #BBBBBB;
+	font-size: 10px;
+	line-height: 11px;
+	text-align: right;
+	width: auto;
+	margin: 30px 0px 0px 0px;
+	padding: 0px 10px 0px 10px;
+	border-right: 3px solid #DDDDDD;
+}
+.tinyturfside {
+	font-family: Georgia, Times, Times New Roman, serif;
+	color: #18692b;
+	font-size: 10px;
+	line-height: 19px;
+	letter-spacing: 2px;
+	text-align: center;
+	width: auto;
+	margin: 1023px 0px 0px 0px;
+	padding: 0px 20px 0px 12px;
+}
+.flytext {
+	position:absolute;
+	left: -3600px;
+	
+}
+.pointything {
+	margin: 0px;
+	padding: 0px;
+	height: 15px;
+	width: 24px;
+	background-image: url(../i/pointything.gif);
+	background-repeat: no-repeat;
+	top: 3px;
+	position: relative;
+	background-position: right;
+}
+.fatty {
+	color: #579BBF;
+	font-size: 17px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	line-height: 21px;
+}
+.fattymid { color: #227AAA;}
+.fattydark { color: #004d74;}
+.turfflip {
+	background-image: url(../i/mainLeftX.jpg);
+	background-repeat: no-repeat;
+	height: 348px;
+	width: auto;
+	background-color: transparent;
+	margin-bottom: 30px;
+}
+#peauth {
+	background: url(../i/peauth.jpg) no-repeat;
+	border: 0px;
+	padding: 0px 10px 0px 0px;
+	margin: 0px;
+}
+#peauth:hover {
+	background-image: url(../i/peauth-over.jpg);
+}
+h2.faq {
+	color: #ffffff;
+	background-color: #004d18;
+	text-align: center;
+	padding: 0px 0px 2px 0px;
+	margin: 20px 0px 0px 20px;
+}
+h2.faqside {
+	color: #ffffff;
+	background-color: #004d18;
+	text-align: center;
+	padding: 0px 0px 2px 0px;
+	margin: 0px;
+}
+#sidebar #faq-questions {
+	background: #FFFFFF url(../i/faq-questions.gif) repeat-y left top; 
+	text-align: center; 
+	width: auto; 
+	padding: 0px; 
+	margin: 0px 0px 0px 3px;
+}
+#sidebar #faq-top {background: url(../i/faq-top.gif) no-repeat left top; width: auto; padding: 0px; margin: 0px; height: 24px;}
+#sidebar #faq-bottom {background: url(../i/faq-bottom.gif) no-repeat left top; width: auto; padding: 0px; margin: 0px 0px 5px 3px; height: 24px;}
+
+.faqtext {
+	color: #464646;
+	font-size: 12px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	text-align: left;
+	list-style-type: disc;
+	list-style-position: outside;
+	padding-left: 12px;
+	padding-right: 0px;
+	margin-left: 12px;
+}
+.faqbox {
+	margin-left: 20px;
+	text-align: right;
+	border-bottom: 2px solid #81c094;
+	padding-bottom: 12px;
+	margin-bottom: 20px;
+}
+.faqbox p {
+	margin-left: 0px;
+	text-align: left;
+}
+.faqbox a.backtop {
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: bold;
+	color: #679ab4;
+	text-decoration: none;
+	text-align: right;
+	border-right: 14px solid #7eb8d7;
+	border-left: 14px solid #7eb8d7;
+	padding: 0px 4px;
+	margin: 0px 15px;
+}
+
+a.faqlink {
+	color: #2a0080;
+	font-size: 12px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-weight: normal;
+	text-decoration: none;
+}
+a.faqlink:hover {
+	color: #ffffff;
+}
+.faquest {
+	color: #176832;
+	font-size: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.faqhr {
+	background-color: #004D18;
+	height: 2px;
+	width: auto;
+	margin: 10px;
+}
+.hilobox img {
+	margin-top: 100px;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*   MAIN CONTENT   */
+
+
+
+
+
+#mainContent {
+	padding: 0px;
+	background-color: #FFFFFF;
+	position: relative;
+	height: auto;
+	width: auto;
+	margin-top: 0;
+	margin-right: 3px;
+	margin-bottom: 0;
+	margin-left: 258px;
+} 
+#mainContentWide {
+	margin: 0px 3px 0px 3px;
+	padding: 0px;
+	width: 765px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	position: relative;
+} 
+#mainContent .picntext {
+	padding-right: 0px;
+	display:block;
+}
+#mainContent .picntext p {
+	display:block;
+}
+.bumpup {
+	font-size: 14px;
+	text-align: center;
+}
+ul {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: left;
+	color: #005580;
+	white-space: normal;
+	list-style-type: disc;
+	list-style-position: outside;
+	margin-top: 7px;
+}
+
+
+
+.centbox {
+	text-align: center;
+	margin: auto;
+}
+.whitebottom {
+	margin-bottom: 20px;
+}
+
+.pix {
+	padding: 0px 20px 10px 10px;
+	margin: 6px 0px 0px 0px;
+}
+.pix188 {
+	margin: 0px;
+	padding: 0px;
+	height: 144px;
+	width: 188px;
+}
+.pix220 {
+	margin: 0px;
+	padding: 0px;
+	height: 180px;
+	width: 220px;
+}
+#pix188parturf {background: url(../i/parturf-golf-turf.jpg) no-repeat; padding: 0px 20px 10px 0px; margin: 6px 0px 0px 15px;}
+#pix188parturf:hover {background: url(../i/parturf-golf-turf-more.jpg) no-repeat}
+#pix220A {background: url(../i/220_putting_green_A.jpg) no-repeat; padding: 0px 20px 10px 0px; margin: 6px 0px 0px 15px;}
+#pix220A:hover {background: url(../i/220_putting_green_C.jpg) no-repeat}
+#pix220B {background: url(../i/220_putting_green_B.jpg) no-repeat; padding: 0px 20px 10px 0px; margin: 6px 0px 0px 15px;}
+#pix220B:hover {background: url(../i/220_putting_green_D.jpg) no-repeat}
+#pix220C {background: url(../i/220_synthetic_grass_lawns_A.jpg) no-repeat; padding: 0px 20px 10px 0px; margin: 6px 0px 0px 15px;}
+#pix220C:hover {background: url(../i/220_synthetic_grass_lawns_C.jpg) no-repeat}
+#pix220D {background: url(../i/220_synthetic_grass_lawns_B.jpg) no-repeat; padding: 0px 20px 10px 0px; margin: 6px 0px 0px 15px;}
+#pix220D:hover {background: url(../i/220_synthetic_grass_lawns_D.jpg) no-repeat}
+
+
+
+#mainContent #whylist {
+	padding: 0px;
+	margin: 0px 0px 20px 20px;
+}
+#mainContent #whylist h3 {
+	background: url(../i/whybkgd1.gif) no-repeat left top;
+	background-color: #A4D9BF;
+	color: #5E6F4F;
+	/*font-family: "Times New Roman", Times, serif;*/
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding: 24px 20px 0px 24px;
+	margin: 6px 0px 0px 0px;
+}
+#mainContent #whylist .lite {
+	background: url(../i/whybkgd2.gif) no-repeat left top;
+	background-color: #C0E4D2;
+}
+#mainContent #whylist strong {
+	color: #254A00;
+}
+#mainContent #whylist a {
+	text-decoration: none;
+	color: #0080AA;
+}
+#mainContent #whylist a:hover {
+	text-decoration: underline;
+}
+
+.whylistlo {
+	background: url(../i/whybkgd1b.gif) no-repeat left top;
+	background-color: #A4D9BF;
+	width:auto;
+	height: 24px;
+}
+.whylistlolite {
+	background: url(../i/whybkgd2b.gif) no-repeat left top;
+	background-color: #C0E4D2;
+	width:auto;
+	height: 24px;
+}
+#sbinner #bluebkgd {
+	padding-top: 10px;
+	background-color: #E6E6F9;
+	background-image: url(../i/bluebkgdtop.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.template25 #container #sidebar #sbinner #boxdouble #bluebkgd h1 {
+	color: #EFE838;
+	position: relative;
+	top: -5px;
+}
+#mainContent  #newspics {
+	text-align: center;
+	padding: 0px;
+	float: right;
+	height: auto;
+	width: 272px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+}
+#mainContent #rossaslide {
+	position: relative;
+	right: 70px;
+	margin-bottom: 10px;
+}
+#mainContent #newspics .newscap {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+}
+.tagger {
+	color: #00802a;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center
+}
+
+
+
+
+
+
+
+
+
+/*   TEXT NAVIGATION   */
+
+
+
+
+
+#textnav {
+	padding: 0px;
+	position: relative;
+	text-align: center;
+	height: 14px;
+	width: auto;
+	margin: 2px auto 0px auto;
+} 
+#textnav a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: normal;
+	color: #CCCCCC;
+	text-decoration: none;
+	border-right: 1px solid #BBBBBB;
+	margin: 0px;
+	padding: 0px 6px 0px 6px;
+}
+#textnav a:hover {
+	color: #AAAAAA;
+}
+#textnav a.nopipe {
+	border: 0px;
+}
+
+
+
+/*   FOOTER   */
+
+
+
+#footer {
+	background: url(../i/footer.jpg) no-repeat left top;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	height: 28px;
+	width: 771px;
+	position:relative;
+} 
+#footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 4px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	text-align:center;
+	font-size: 10px;
+	color: #777777;
+}
+.copyrite {
+	font-family: Tahoma, Arial, Helvetica;
+	color: #999999;
+	font-size: 10px;
+	text-align: center;
+	width: 750px;
+	line-height: 10px;
+	margin: 0px auto;
+	padding: 10px 0px 0px 0px;
+}
+.copyrite a {
+	font-variant: normal;
+	color: #777777;
+	text-decoration: none;
+}
+.copyrite a:hover {
+	color: #995599;
+}
+
+
+/*   SPECIAL STUFF    */
+
+
+
+a.textlink {
+	color: #4723B1;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none
+}
+a.textlink:hover {
+	color: #AD6A27;
+	text-decoration: underline;
+}
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.lefty{text-align: left}
+.centerup{text-align: center}
+.greeny {color: #096225;}
+.rusty {color: #BA4F1B;}
+.blacky {color: #000000;}
+.faqcolor {color: #9caca1;}
+
+
+.pointy {
+	position:relative;
+	left:4px; 
+	top:2px; 
+}
+.acharr {
+	background-color: #8787CD;
+	margin: 6px auto 12px auto;
+	padding: 0px;
+	height: 1px;
+	width: 80%;
+	border: solid 2px;
+	border-color: #D6D6E9 #6666AE #6666AE #D6D6E9;
+}
+.stretcher {
+	height: 200px;
+	width: auto;
+}
+.titeline {
+	line-height: .8em;
+}
+.emailer {
+	background: url(../i/mailinfo.gif) no-repeat 0px 0px;
+	height: 40px;
+	width: 238px;
+}
+.emailer:hover {
+	background: url(../i/mailinfo.gif) no-repeat 0px -40px;
+}
+.emailerPE {
+	background: url(../i/eButton.jpg) no-repeat 0px 0px;
+	height: 72px;
+	width: 140px;
+}
+.emailerPE:hover {
+	background: url(../i/eButton.jpg) no-repeat 0px -72px;
+}
+.plus10 {
+	height:10px;
+}
+#mainContent .downabit {
+	position: relative;
+	top: 5px;
+}
+.reasons {
+	background-color: #F5F5F0;
+	margin: 0px 16px;
+	padding: 0px 25px;
+}
+.reasons ul {
+	margin: 0px;
+	padding: 0px;
+}
+.reasons ul li {
+	border-bottom: 1px solid #999;
+	padding: 12px;
+	margin: 0px;
+	list-style-type: none;
+}
+.dividebutton {
+	text-align: center;
+	height: 82px;
+	width: 420px;
+	margin: 15px 45px;
+}
+#lawngall {background: url(/i/lawn_turf_gallery_button.jpg) no-repeat 0px 0px;}
+#lawngall:hover {background: url(/i/lawn_turf_gallery_button.jpg) no-repeat 0px -82px;}
+.minifaqs h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin: 8px 0px;
+}
+.minifaqs h3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: bold;
+	background-image: none;
+	width: 100%;
+	text-align: center;
+	float: none;
+	margin: 10px 0px;
+	padding: 3px 0px;
+}
+.minifaqs p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	background-image: none;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: left;
+}
